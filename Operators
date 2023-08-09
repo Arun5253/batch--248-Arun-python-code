@@ -1,0 +1,123 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "27bc8c83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "13\n",
+      "5\n",
+      "36\n",
+      "1\n",
+      "6561\n"
+     ]
+    }
+   ],
+   "source": [
+    "#  Arithmetic Operator\n",
+    "a = 9\n",
+    "b = 4\n",
+    "add = a + b\n",
+    "sub = a - b\n",
+    "mul = a * b\n",
+    "mod = a % b\n",
+    "p = a ** b\n",
+    "# print results\n",
+    "print(add)\n",
+    "print(sub)\n",
+    "print(mul)\n",
+    "print(mod)\n",
+    "print(p)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "ce3fac02",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n",
+      "False\n",
+      "True\n",
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# comparision  Operators\n",
+    "a = 13\n",
+    "b = 33\n",
+    "print(a > b) ## a > b is greater \n",
+    "print(a < b) # a > b is  lessthan \n",
+    "print(a == b) # # a == b is equals \n",
+    "print(a != b) ## a != b not equals \n",
+    "print(a >= b) # a >= b is greater than or equal to \n",
+    "print(a<=b) # # a <= b is lessthan or equal to"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "d060827a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "# identity operators\n",
+    "x = [\"movie \", \"cricket\"]\n",
+    "print(\"movie \" in x)  # checks movie  is there or not\n",
+    "print( \"chess\"  in[\"movie\",\"cricket\"]) # checks it is there or not\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5a3f3b21",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# logical operators\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
